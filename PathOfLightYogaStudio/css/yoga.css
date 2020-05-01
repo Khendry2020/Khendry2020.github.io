@@ -1,0 +1,83 @@
+body { 
+	background-color: #F5F5F5;
+    color: #3F2860;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+header { 
+	background-color: #9BC1C2; 
+    background-image: url('../img/lilyheader.jpg');
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+h1 { 
+	text-indent: 1em;
+    line-height: 400%; 
+}
+
+nav { 
+	 font-weight: bold; 
+	 margin: 0;
+	 padding: 0;
+}
+
+footer { 
+	background-color: #9BC1C2; 
+    font-size: small;
+	text-align: center;
+	font-style: italic;
+	padding: .5em;
+}
+
+address {
+	margin-bottom: .5em;
+}
+
+.Bullet {
+	list-style-image: url('../img/yogabullet.png') !important;
+	list-style-position: inside;
+	margin-left: 3em;
+}
+
+.navlist li {
+	display: inline;
+}
+
+/*Table styling*/
+.Schedule {
+	border: black 1px solid;
+	width: 100%;
+	margin-bottom: .5em;
+	border-collapse: collapse;
+}
+
+td {
+	border: solid black 1px;
+	text-align: center;
+}
+
+/*!!!Respnsive Design!!!*/
+
+/*Mobile*/
+@media only screen and (max-width: 641px) {
+	nav {
+		display: block;
+	}
+	header {
+		background-image: none;
+	}
+	body {
+		background-image: url('../img/yogamobile.png');
+	}
+	.Image {
+		display: none;
+		
+	}
+}
+	/*Tablet*/
+@media only screen and (min-width: 642px) and (max-width: 768px) {
+	nav {
+		display: inline;
+	}
+	}
