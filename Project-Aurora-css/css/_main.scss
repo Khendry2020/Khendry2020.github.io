@@ -1,0 +1,51 @@
+.form-heading {
+    width: 100%;
+	@include shadow;
+    color: $accent;
+    background: $primary;
+    line-height: 5rem;
+    padding: $pad;
+}
+
+.form{
+    width: 100%;
+    padding-bottom: $pad;
+
+    .form-label {
+        color: $background;
+        display: block;
+        font-size: 2rem;
+        line-height: 2rem;
+        padding-top: $pad;
+    }
+
+    .form-input {
+        width: 100%;
+        padding: $pad;
+        background: $alert;
+        @include border;
+        color: $accent;
+        font-weight: 900;
+        font-style: italic;
+        font-size: 2.75rem;       
+    }
+    form-input:focus {
+        background: $primary;
+        border: $primary;
+        color: $alert;
+    }
+    .form-input:invalid {
+        background: $alert;
+        border: $accent;
+        color: $accent;
+    }
+    .form-textarea {
+        width: 100%;
+        color: $primary;
+        background: $background;
+        @include border;
+        outline: none;
+        padding: $pad;
+        margin-bottom: $pad;
+    }
+}
