@@ -1,0 +1,32 @@
+.balloon-container {
+	width:120px;
+	height:175px;
+	position:absolute;
+	left:75%;
+  bottom:55%;
+  animation: moveB 25s infinite;
+  .balloon {
+    background-image: URL("../images/balloon.png");
+    width:100%;
+    height:100%;  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: floatA 17s infinite;
+  }
+
+}
+
+
+@keyframes moveB {
+  from {transform: translateX(500px);}
+  to {transform: translateX(-1600px);}
+}
+
+@keyframes floatA {
+  0% {transform: translateY(40px);}
+  25% {transform: translateY(-40px);}
+  50% {transform: translateY(40px);}
+  75% {transform: translateY(-40px);}
+  100% {transform: translateY(40px);}
+}
