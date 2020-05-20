@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Digital Dare';
+	src: url(../../assets/fonts/DigitalDare.woff2) format('woff2'),
+	url(../../assets/fonts/DigitalDare.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+}

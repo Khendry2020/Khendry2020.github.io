@@ -1,0 +1,76 @@
+.masthead .intro-body .brand-heading {
+  position: relative;
+  left: 250px;
+}
+
+@media (min-width: 992px) {
+  .masthead .intro-body .brand-heading {
+    left: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .masthead .intro-body .brand-heading {
+    left: 500px;
+  }
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+}
+
+.about-text {
+  margin-bottom: -100px;
+}
+
+.container.second {
+  margin-top: 150px;
+}
+
+@media (min-width: 768px) {
+  .masthead .intro-body {
+    background-image: none;
+  }
+}
+
+.main {
+  position: absolute;
+}
+
+#carousel-1 {
+}
+
+.masthead .intro-body {
+}
+
+.mainimg {
+  position: absolute;
+}
+
+.mainimg {
+  margin-left: -535px;
+  margin-top: -550px;
+  height: 750px;
+  width: auto;
+}
+
+@media (min-width: 992px) {
+  .masthead .intro-body .brand-heading {
+    left: 275px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainimg {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .masthead .intro-body .brand-heading {
+    margin-left: -500px;
+  }
+}
+
+.tel {
+}
+
