@@ -1,0 +1,61 @@
+@font-face {
+  font-family: Demon;
+  src: url(fonts/demon/DEMON_NI.TTF);
+}
+
+body {
+  background-color: rgb(87, 85, 85);
+}
+
+nav {
+  background-color: rgb(87, 85, 85);
+  font-family: Demon, "Times New Roman", Times, serif;
+  font-size: 1.5em;
+}
+
+nav li a {
+  color: white;
+}
+
+nav #demon {
+  font-size: 5em;
+}
+
+#Landing {
+  background-image: url("img/Demon.jpg");
+  height: 1080px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#Landing h1 {
+  font-family: Demon, "Times New Roman", Times, serif;
+  padding-top: 150px;
+  font-size: 15em;
+  font-weight: bold;
+  color: rgb(133, 16, 16);
+}
+
+.btn-primary-outline {
+  background-color: transparent;
+  border-color: rgb(133, 16, 16);
+}
+
+#Landing button {
+  color: rgb(133, 16, 16);
+  font-size: 25px;
+  font-weight: bold;
+  box-shadow: 2px 2px 2px black;
+}
+
+#Landing button:hover {
+  color: rgb(85, 8, 8);
+}
+
+/*About Styles*/
+#About {
+  background-color: rgb(87, 85, 85);
+  color: aliceblue;
+}
