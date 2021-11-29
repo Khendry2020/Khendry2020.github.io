@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>S.C.F.C</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm">
+      <div class="container">
+        <a class="navbar-brand" href="Calculator.html"> S.C.F.C </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse"></div>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">
+                Calculator
+                <span class="sr-only"> (current) </span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Wiki.html"> Wiki </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!----------------------------------------------------Body----------------------------------------------------------->
+    <div
+      id="calcBorder"
+      class="container translate-middle border border-rounded-right"
+    >
+      <div class="container">
+        <div class="row border-between">
+          <div id="shipCol" class="col-sm border-right-2">
+            <h1>Ship List</h1>
+            <div
+              id="shipRow"
+              class="row hover-overlay ripple shadow-1-strong border-top"
+            >
+              <div class="col">
+                <a id="hullA" href="#" onclick="fuelMath(this.id)"
+                  ><h4>Hull A</h4></a
+                >
+              </div>
+              <div class="col">
+                <a href="Wiki.html"><p>Learn more</p></a>
+              </div>
+            </div>
+            <div id="shipRow" class="row border-top">
+              <div class="col">
+                <a id="hullB" href="#" onclick="fuelMath(this.id)"
+                  ><h4>Hull B</h4></a
+                >
+              </div>
+              <div class="col">
+                <a href="Wiki.html"><p>Learn more</p></a>
+              </div>
+            </div>
+            <div id="shipRow" class="row border-top">
+              <div class="col">
+                <a id="hullD" href="#" onclick="fuelMath(this.id)"
+                  ><h4>Hull D</h4></a
+                >
+              </div>
+              <div class="col">
+                <a href="Wiki.html"><p>Learn more</p></a>
+              </div>
+            </div>
+            <div id="shipRow" class="row border-top">
+              <div class="col">
+                <a id="hullE" href="#" onclick="fuelMath(this.id)"
+                  ><h4>Hull E</h4></a
+                >
+              </div>
+              <div class="col">
+                <a href="Wiki.html"><p>Learn more</p></a>
+              </div>
+            </div>
+          </div>
+          <!-----------------------------------------------------Calculator----------------------------------------->
+          <div id="calcCol" class="col-sm">
+            <h1 class="">Calculator</h1>
+            <p>Input the trip distance then select your ship on the right!</p>
+            <br/>
+            <p>Distance in kilometers</p>
+            <input id="distance" type="number" min="5" max="999999999" />
+            <br />
+            <p id="response"></p>
+          </div>
+        </div>
+        <!---------------------------Columns----------------------------------------------------------------------------->
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+
+    <script src="fuelCalculator.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

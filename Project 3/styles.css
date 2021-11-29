@@ -1,0 +1,106 @@
+@font-face {
+  font-family: spaceAge;
+  src: url(./fonts/space\ age.ttf);
+}
+
+@font-face {
+  font-family: xScale;
+  src: url(./fonts/X-SCALE_.TTF);
+}
+/*---------------------------------------NAV----------------------------------------------*/
+nav {
+  background-color: rgba(0, 23, 43, 0.932);
+  font-size: 25px;
+}
+nav a {
+  color: #7e7e7e;
+  font-family: spaceAge, "Times New Roman", Times, serif;
+  font-size: 30px !important;
+  text-align: left;
+}
+
+nav li a {
+  color: #7e7e7e;
+  font-family: xScale, "Times New Roman", Times, serif;
+  text-align: left;
+}
+
+nav a:hover {
+  color: #b1b1b1;
+}
+/*-----------------------------------------------Body---------------------------------------*/
+body {
+  background-color: rgba(0, 23, 43, 0.932);
+  background-image: url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h4 {
+  font-family: xScale, "Times New Roman", Times, serif;
+  color: #00e7ff;
+  list-style-type: none;
+}
+
+h1 {
+    font-family: xScale, "Times New Roman", Times, serif;
+    color: #00e7ff;
+  }
+  
+
+h2 {
+  font-family: xScale, "Times New Roman", Times, serif;
+  color: #00e7ff;
+}
+
+#shipCol {
+  border-right: 2px #00e7ff;
+}
+
+#calcBorder {
+  border: 2px #00e7ff;
+  margin: auto;
+  top: 50%;
+}
+
+.border-between > [class*="col-"]:before {
+  background: #e3e3e3;
+  bottom: 0;
+  content: " ";
+  left: 0;
+  position: absolute;
+  width: 1px;
+  top: 0;
+}
+
+.border-between > [class*="col-"]:first-child:before {
+  display: none;
+}
+
+a:hover {
+    color:white;
+}
+
+p {
+      font-family: xScale, "Times New Roman", Times, serif;
+  color: #0091a1;
+}
+
+.container {
+    padding-top: -50%;
+    background-color: rgba(0, 23, 43, 0.4)
+
+}
+
+input {
+    width: 30%;
+    height: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #0091a1;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color:rgba(0, 23, 43, 0.4);
+    color:#0091a1;
+}
