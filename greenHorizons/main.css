@@ -1,0 +1,124 @@
+/*Setting background image*/
+
+#backgroundImg {
+    background-image: url("imgs/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+/*div styles*/
+
+div {
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+
+/*Text Colors*/
+
+a {
+    color: rgb(80, 79, 79);
+}
+
+a:hover {
+    color: rgb(238, 236, 236);
+}
+
+p {
+    color: rgb(80, 79, 79);
+}
+
+#nav {
+    background-color: yellowgreen;
+}
+
+
+/*title styles*/
+
+#title {
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: yellowgreen;
+    text-shadow: 2px 2px #000000;
+}
+
+
+/*about Styles*/
+
+#about {
+    background-color: yellowgreen;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#aboutPara {
+    margin: auto;
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-top: 25px;
+}
+
+#about h1 {
+    text-align: center;
+    color: rgb(80, 79, 79);
+}
+
+
+/*gallery*/
+
+#gallery h1 {
+    text-align: center;
+    color: yellowgreen;
+    padding-top: 20px;
+    text-shadow: 2px 2px #000000;
+}
+
+
+/*reviews*/
+
+#review {
+    background-color: yellowgreen;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#review h2 {
+    text-align: center;
+    color: rgb(80, 79, 79);
+    padding-top: 20px;
+}
+
+
+/*Contact*/
+
+#contact .card:hover i,
+#contact .card:hover h4 {
+    color: yellowgreen;
+}
+
+#contact {
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-top: 20px;
+    color: yellowgreen;
+}
+
+label {
+    color: yellowgreen;
+    text-shadow: 2px 2px #000000;
+    font-size: 20px;
+}
+
+#contact h3 {
+    color: yellowgreen;
+    text-shadow: 2px 2px #000000;
+}
+
+#contact p {
+    color: yellowgreen;
+    text-shadow: 2px 2px #000000;
+    font-size: 20px;
+}
